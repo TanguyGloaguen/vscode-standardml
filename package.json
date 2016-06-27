@@ -1,0 +1,31 @@
+{
+    "name": "standardml",
+    "displayName": "StandardML",
+    "description": "basic StandardML language support for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "TGloague",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sml",
+            "aliases": ["SML", "sml"],
+            "extensions": [".ml",".sml",".cm",".sig"],
+            "configuration": "./sml.configuration.json"
+        }],
+        "grammars": [{
+            "language": "sml",
+            "scopeName": "source.sml",
+            "path": "./syntaxes/sml.tmLanguage"
+        }]
+    },
+    "keywords": [
+        "sml",
+        "StandardML"
+    ],
+    "license": "MIT"
+}
