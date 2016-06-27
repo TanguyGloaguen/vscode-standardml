@@ -8,7 +8,7 @@ It is based upon the [SML Language Definition](https://github.com/seanjames777/S
 
 - Basic syntaxic highlighting of StandardML syntax
 
-![feature X](images/feature-x.png)
+![syntax highlighting](images/syntax-highlighting.jpg)
 
 ## Requirements
 
